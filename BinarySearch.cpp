@@ -41,7 +41,9 @@ public:
 
 		if (parent == NULL) // If the parent is NULL (Tree is empty)
 		{
-
+			ROOT = newNode; // Mark th enew node as root
+			return; // Exit
 		}
+
 	}
 };
