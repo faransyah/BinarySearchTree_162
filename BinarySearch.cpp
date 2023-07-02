@@ -95,7 +95,9 @@ public:
 		}
 		if (ptr != NULL)
 		{
-
+			cout << ptr->info << endl;
+			preorder(ptr->leftchild);
+			preorder(ptr->rightchild);
 		}
 	}
 
