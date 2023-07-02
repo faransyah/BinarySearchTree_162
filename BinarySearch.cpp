@@ -101,4 +101,13 @@ public:
 		}
 	}
 
+	void postorder(Node* ptr)
+	{
+		// Perform the pstorder traversal of the tree
+		if (ROOT == NULL)
+		{
+
+		}
+	}
+
 };
